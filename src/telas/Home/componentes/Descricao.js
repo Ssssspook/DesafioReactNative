@@ -12,7 +12,7 @@ export default function Descricao(){
 const estilos = StyleSheet.create({
     fundo: {
         backgroundColor: "#F9E2C6",
-        
+        marginBottom: 17,
     },
     texto: {
         marginVertical: 8,

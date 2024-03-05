@@ -14,9 +14,12 @@ export default function Cards(){
 const estilos = StyleSheet.create({
     card: {
         width: 110,
-        height: 145,
+        height: 160,
         justifyContent: "center",
-        flexDirection: "column"
+        flexDirection: "column",
+        backgroundColor: "white",
+        borderRadius: 10,
+        paddingTop: 5,
     },
     imagem: {
         height: 100,

@@ -18,7 +18,7 @@ export default function AppRotas(){
       tabBarIcon: ({ focused, color, size }) => {
         let iconName;
 
-        if (route.name === 'Home') {
+        if (route.name === 'Início') {
           iconName = focused
             ? 'home'
             : 'home';
@@ -38,7 +38,7 @@ export default function AppRotas(){
       tabBarActiveTintColor: "black",
       tabBarInactiveTintColor: "#565656",
       })} >
-      <Tab.Screen name='Home' component={Home}/>
+      <Tab.Screen name='Início' component={Home}/>
       <Tab.Screen name='Contato' component={Contato}/>
       <Tab.Screen name='Membros' component={Membros}/>
       <Tab.Screen name='Login' component={LoginRotas}/>

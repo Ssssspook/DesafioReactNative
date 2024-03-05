@@ -18,7 +18,7 @@ export default function Login(){
     <InputEmail />
     <Texto style={estilos.valor}> Senha </Texto>
     <InputSenha />
-    <Botao texto={"Login"} style={estilos.botao} onPress={() => navigation.navigate('GerenciamentoMembros')}/>
+    <Botao texto={"Entrar"} style={estilos.botao} onPress={() => navigation.navigate('GerenciamentoMembros')}/>
     </View>
 }
 
