@@ -1,13 +1,12 @@
 import { SafeAreaView, StyleSheet, Text, View, StatusBar, FlatList, ScrollView } from 'react-native';
 import { useFonts, Poppins_400Regular } from '@expo-google-fonts/poppins';
-import { NavigationContainer } from '@react-navigation/native';
 
-
-import Home from './src/telas/Home';
 
 import Texto from './src/componentes/Texto';
 import { RougeScript_400Regular } from '@expo-google-fonts/rouge-script';
-import Login from './src/telas/Login';
+import AppRotas from './src/rotas/AppRotas';
+import Navbar from './src/componentes/Navbar';
+
 
 export default function App() {
 
@@ -22,12 +21,10 @@ export default function App() {
 
   return (
     
-    <SafeAreaView>
+    <SafeAreaView style={{flex: 1}}>
       <StatusBar />
-    
-      <Texto> dalva </Texto>
-
-      <Login />
+      <Navbar />
+      <AppRotas />
 
     
     </SafeAreaView>

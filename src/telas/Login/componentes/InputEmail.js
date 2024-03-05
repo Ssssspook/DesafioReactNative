@@ -23,6 +23,7 @@ const estilos = StyleSheet.create({
         width: 300,
         height: 30,
         borderRadius: 15,
+        borderWidth: 0.2
     },
     input:{
         fontSize: 16,

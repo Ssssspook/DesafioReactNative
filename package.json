@@ -11,7 +11,9 @@
   "dependencies": {
     "@expo-google-fonts/poppins": "^0.2.3",
     "@expo-google-fonts/rouge-script": "^0.2.3",
+    "@react-navigation/bottom-tabs": "^6.5.16",
     "@react-navigation/native": "^6.1.14",
+    "@react-navigation/native-stack": "^6.9.22",
     "expo": "~50.0.8",
     "expo-font": "~11.10.3",
     "expo-status-bar": "~1.11.1",
