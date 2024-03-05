@@ -37,7 +37,8 @@ const estilos = StyleSheet.create({
     caixa: {
         backgroundColor: "#F9E2C6",
         paddingVertical: 24,
-        marginVertical: 3,
+        marginTop: 3,
+        marginBottom: 5,
     },
     texto:{
         textAlign: "center",
