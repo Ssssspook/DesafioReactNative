@@ -19,6 +19,8 @@ export default function App() {
     return <View />
   }
 
+
+  //oi, em varias paginas faltou tempo pra eu componentizar então perdão pela desorganização...
   return (
     
     <SafeAreaView style={{flex: 1}}>
